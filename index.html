@@ -13,12 +13,10 @@
 <body>
     
     <main>
+        <ul class="search">
+            <li id="search"><img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-search-ui-dreamstale-lineal-dreamstale.png"/></li>
+        </ul>
         <header>
-        <div class="search">
-            
-                <img src="https://img.icons8.com/ios/50/000000/search--v1.png"/>
-            </a>
-        </div>
             <div class="logo">
                 <a href="index.html">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/vsco-logo.png"/>
@@ -273,12 +271,21 @@
                 </div>
             </div>
             <a id="gitHub" href="https://github.com/rafaalmeida1" target="_black">
-            <div class="gitButton">
+                <div class="gitButton">
                     <button class="btn-git" type="button">Copy by Rafael Almeida</button>
                 </div>
             </a>
         </div>
     </main>
+    
+    <div class="search-background">
+        <p id="backHome" class="closeSearch">X</p>
+        <div class="searchForm">
+            <form action="">
+                <input type="text" name="search" placeholder="Search">
+            </form>
+        </div>
+    </div>
 
     <footer>
         <p class="copyright">&copy; Copyright Rafael Almeida - 2022</p>
@@ -295,36 +302,45 @@
         </div>
     </footer>
 
-    <div class="signin-page">
-        <input type="button" id="backButton" class="btn-signin btn" value="Back">
-        <div class="logo-signin">
-            <a href="index.html">
-                <img src="https://img.icons8.com/carbon-copy/100/000000/vsco-logo.png"/>
-            </a>
-        </div>
-        <div class="paragraf">
-            <p>
-                Sign in to create, discover and connect
-                <br>
-                with the global&nbsp;community.
-            </p>
-        </div>
-        <form>
-            <input type="email" class="input-signin" placeholder="Email or Profile name">
-            <input type="password" class="input-signin" placeholder="Password">
-            <fieldset class="terms">
-                <label>
-                    I accept to the
-                    <a href="#" target="_black">Terms</a>
-                    &
-                    <a href="#" target="_black">Privacy Policy</a>
-                </label>
-            </fieldset>
-            <a href="https://vsco.co/store/app" class="left accountLink link">Sign Up - Get The App</a>
-            <a class="forgotpw link" href="https://vsco.co/user/forgotpassword">Forgot password</a>
-            <button id="loginButton" class="right" type="submit">Sign In</button>
-        </form>
+    <div class="floatButton">
+        <a href="#top">
+            <img src="./assets/arrow-up.png">
+        </a>
     </div>
+
+    <div class="form">
+        <p id="backButton" class="close">X</p>
+        <div class="signin-page">
+            <div class="logo-signin">
+                <a href="index.html">
+                    <img src="https://img.icons8.com/carbon-copy/100/000000/vsco-logo.png"/>
+                </a>
+            </div>
+            <div class="paragraf">
+                <p>
+                    Sign in to create, discover and connect
+                    <br>
+                    with the global&nbsp;community.
+                </p>
+            </div>
+            <form>
+                <input type="email" class="input-signin" placeholder="Email or Profile name">
+                <input type="password" class="input-signin" placeholder="Password">
+                <fieldset class="terms">
+                    <label>
+                        I accept to the
+                        <a href="#" target="_black">Terms</a>
+                        &
+                        <a href="#" target="_black">Privacy Policy</a>
+                    </label>
+                </fieldset>
+                <a href="https://vsco.co/store/app" class="left accountLink link">Sign Up - Get The App</a>
+                <a class="forgotpw link" href="https://vsco.co/user/forgotpassword">Forgot password</a>
+                <button id="loginButton" class="right" type="submit">Sign In</button>
+            </form>
+        <div></div>
+    </div>
+
 
 <script src="/src/index.js"></script>
 </body>
