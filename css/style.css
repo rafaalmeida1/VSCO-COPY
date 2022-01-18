@@ -492,10 +492,17 @@ label a {
     outline: none;
 }
 
+.containerClose{
+    position: relative;
+    top: -250px;
+    width: 90%;
+    height: 10%;
+}
+
 .closeSearch {
     position: absolute;
-    right: 70px;
-    top: 100px;
+    right: 0;
+    top: 0;
     padding: 10px;
     cursor: pointer;
     font-size: 50px;
